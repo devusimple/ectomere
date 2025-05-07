@@ -5,8 +5,6 @@
   "description": "A simple ectomere api services for improve development skill.",
   "type": "module",
   "scripts": {
-    "dev": "bun run src/index.ts",
-    "build": "tsc",
     "start": "node src/index.ts"
   },
   "keywords": [
