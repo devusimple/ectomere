@@ -3,9 +3,10 @@
   "version": "1.0.1",
   "module": "index.ts",
   "description": "A simple ectomere api services for improve development skill.",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "start": "node src/index.ts"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [
     "api", "express", "express-api"
